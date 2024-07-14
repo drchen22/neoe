@@ -1,0 +1,7 @@
+[
+  {
+    "label": "Build and Run Tests",
+    "command": "cmake --build build; ./build/tests/tests",
+    "use_new_terminal": false
+  }
+]

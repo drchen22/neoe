@@ -1,10 +1,10 @@
 #include <catch2/catch_test_macros.hpp>
-#include <runtime/core/meta/var_traits.hpp>
+#include <runtime/core/meta/reflection.hpp>
 #include <type_traits>
 
-using namespace Neoe;
+using namespace Neoe::Refelction;
 
-struct Person { 
+struct Person {
     bool isFemale(Person other) { return other.sex; }
     bool isFemaleConst() const { return sex; }
     bool sex;
