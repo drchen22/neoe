@@ -1,0 +1,22 @@
+{
+  "dependencies": [
+    "catch2",
+    "glfw3",
+    "imgui",
+    "spdlog"
+  ],
+  "overrides": [
+    {
+      "name": "catch2",
+      "version": "3.6.0"
+    },
+    {
+      "name": "imgui",
+      "version": "1.90.7"
+    },
+    {
+      "name": "glfw3",
+      "version": "3.4"
+    }
+  ]
+}
